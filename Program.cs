@@ -34,5 +34,5 @@ app.MapGet("/pdf", () =>
 
     return Results.File(stream.ToArray(), "application/pdf", "output.pdf");
 });
-
+app.Urls.Add("http://0.0.0.0:5087"); 
 app.Run();
