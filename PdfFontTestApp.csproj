@@ -9,12 +9,6 @@
   <ItemGroup>
     <PackageReference Include="QuestPDF" Version="2025.5.1" />
   </ItemGroup>
-	
-<ItemGroup>
-  <Content Include="Fonts\Padauk-Regular.ttf">
-    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-  </Content>
-</ItemGroup>
 
 
 </Project>
